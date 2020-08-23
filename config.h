@@ -13,8 +13,8 @@ static const unsigned int gappov    = 10;       /* vert outer gap between window
 static const int smartgaps          = 1;        /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "xos4 Terminus:size=12", "Symbols Nerd Font:size=12" };
-static const char dmenufont[]       = "xos4 Terminus:size=14";
+static const char *fonts[]          = { "xos4 Terminus:size=9", "Symbols Nerd Font:size=9" };
+static const char dmenufont[]       = "xos4 Terminus:size=9";
 
 /* tagging */
 static const char *tags[] = { "", "", "", "", "ﱦ"};
@@ -25,7 +25,7 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
+	{ "mGBA",     NULL,       NULL,       0,            1,           -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
 };
 
